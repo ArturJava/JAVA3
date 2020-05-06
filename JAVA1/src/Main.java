@@ -10,7 +10,6 @@ public class Main {
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_BLUE = "\u001B[34m";
     public static final String ANSI_PURPLE = "\u001B[35m";
-
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
@@ -18,7 +17,6 @@ public class Main {
         Сalc_func сalcfunc = new Сalc_func();
         int choice = 100, option;
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("f'(10) = " + expression.derivative().calculate(10));
 
         do {
             try {
