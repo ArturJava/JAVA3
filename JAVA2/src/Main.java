@@ -11,14 +11,6 @@ public class Main {
     public static final String ANSI_PURPLE = "\u001B[35m";
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
-    /*public static void main(String[] args) {
-
-        final Function expression = new Func_2(new LinearFunction_2(1, 0.5), new ConstFunction(5.0));
-        System.out.println("f(10) = " + expression.calculate(-150));
-        System.out.println("f'(10) = " + expression.derivative().calculate(100));
-
-    }*/
-
     public static void main(String[] args) {
         int choice = 100;
         Scanner scanner = new Scanner(System.in);
